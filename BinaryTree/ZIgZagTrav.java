@@ -1,6 +1,6 @@
 package BinaryTree;
 
-public class ZigZagTraversal {
+public class ZIgZagTrav {
     public static class Node{
         int data;
         Node left , right;
@@ -20,13 +20,13 @@ public class ZigZagTraversal {
         root.left.left = new Node(1);
 
         ZigZagTravesal(root);
+        
     }
 
-    private static void ZigZagTravesal(Node root) {
+    public static void ZigZagTravesal(Node root) {
 
         if(root == null)return;
-
-        
+    
         
 
     }

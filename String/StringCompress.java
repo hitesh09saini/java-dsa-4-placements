@@ -1,5 +1,7 @@
 package String;
 
+
+
 public class StringCompress {
     public static void main(String[] args) {
         String s = "aaabbcccdd";
@@ -7,7 +9,7 @@ public class StringCompress {
     }
 
     private static String compress(String s, int n) {
-
+        
         StringBuilder sb = new StringBuilder();
         for(int i=0;i<n;i++){
             Integer c= 1;

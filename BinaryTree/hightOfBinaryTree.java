@@ -18,7 +18,8 @@ public class hightOfBinaryTree {
         root.left.left = new Node(1);
         root.right.left = new Node(1);
         root.left.right = new Node(1);
-
+  
+     
         System.out.println(Height(root));
 
     }
