@@ -1,4 +1,4 @@
-package leetcode.String;
+package String;
 
 public class ipAdress {
     public static void main(String[] args) {
