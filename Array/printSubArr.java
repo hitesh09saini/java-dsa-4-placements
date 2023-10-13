@@ -1,4 +1,3 @@
-package Array;
 
 public class printSubArr {
     public static void main(String[] args) {

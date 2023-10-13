@@ -1,4 +1,3 @@
-package Array;
 
 public class miniJump {
     public static void main(String[] args) {

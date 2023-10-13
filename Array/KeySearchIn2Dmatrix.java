@@ -1,4 +1,3 @@
-package Array;
 
 public class KeySearchIn2Dmatrix {
     public static void main(String[] args) {
