@@ -11,7 +11,7 @@ public class uniqueMAxSum {
 
     private static int maxSum(int[] a, int n) {
       
-        int ans = -1;-
+        int ans = -1;
         Map<Integer, Integer> map = new HashMap<>();
 
         for(int num : a){
