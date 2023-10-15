@@ -1,4 +1,3 @@
-package Recursion;
 
 public class fibnacciNum {
     public static void main(String[] args) {

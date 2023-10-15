@@ -1,4 +1,3 @@
-package Recursion;
 
 public class firstOcc {
     public static void main(String[] args) {

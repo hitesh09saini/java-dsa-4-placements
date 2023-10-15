@@ -1,4 +1,3 @@
-package Recursion;
 
 public class printSumFirst {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package Recursion;
 
 public class duplicateInString {
     public static void main(String[] args) {
