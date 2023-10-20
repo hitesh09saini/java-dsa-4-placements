@@ -19,6 +19,7 @@ public class excelSheet {
             } else {
                 map.put(a[i], 1);
             }
+            
         }
 
         for (int v : map.keySet()) {
