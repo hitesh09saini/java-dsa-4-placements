@@ -3,6 +3,7 @@ public class power {
 
     public static void main(String[] args) {
         System.out.println(powerOp(2, 4));
+        // System.out.println(power(2, 4));
     }
 
     private static int powerOp(int v, int p) {
@@ -10,7 +11,8 @@ public class power {
         if (p == 0)
             return 1;
 
-        int po = power(v, p / 2) * power(v, p / 2);
+        int po = powerOp(v, p / 2) ;
+        po *= po;
 
         if (p % 2 != 0) {
             po = v * po;
@@ -19,6 +21,7 @@ public class power {
         return po;
 
     }
+    
 
     private static int power(int v, int p) {
 

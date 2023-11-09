@@ -16,8 +16,11 @@ public class OELL {
         li.next = new ListNode(2);
         li.next.next = new ListNode(3);
         li.next.next.next = new ListNode(4);
-        
-        Print(oddEvenList(li));
+        li.next.next.next.next = new ListNode(5);
+        System.out.println(length(li));
+
+       
+        Print(removeNthFromEnd(li, 2));
     }
 
     private static void Print(ListNode li) {
@@ -52,5 +55,32 @@ public class OELL {
         temp.next = h1.next;
         return head;
 
+    }
+
+
+    public static ListNode removeNthFromEnd(ListNode head, int n) {
+        if(head==null)return null;
+        int l = length(head);
+        if(l<n)return head;
+        if(l==n)return head.next;
+        int c =1;
+        ListNode h = head;
+        while(h != null){
+           if(c == l-n && h.next != null){
+               h.next = h.next.next;
+           }c++;
+           h = h.next;
+        }
+
+        return head;
+    }
+
+    public static int length(ListNode h){
+        int c = 0;
+        while(h!=null){
+           c++;
+           h= h.next;
+        }
+        return c;
     }
 }
