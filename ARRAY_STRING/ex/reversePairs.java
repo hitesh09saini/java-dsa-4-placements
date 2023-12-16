@@ -1,4 +1,4 @@
-package ex;
+package ARRAY_STRING.ex;
 public class reversePairs {
 
     public static void main(String[] args) {
